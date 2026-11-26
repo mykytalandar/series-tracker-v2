@@ -15,9 +15,14 @@ export default function Header() {
       </div>
       <div>EN/UA</div>
       <div>Theme switcher</div>
-      <Link href={"/login"} className="">Try Free</Link>
-      <div>
-        <UserRound />
+      <Link
+        href={"/login"}
+        className="flex items-center w-[100px] h-[60px] bg-primary px-5 py-2 rounded-[100px]"
+      >
+        <span className="text-button-text font-semibold">Try Free</span>
+      </Link>
+      <div className="flex justify-center items-center p-2 w-[40px] h-[50px] bg-primary border border-border rounded-[20px]">
+        <UserRound className="text-button-text"/>
       </div>
     </header>
   );

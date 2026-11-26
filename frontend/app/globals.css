@@ -3,19 +3,20 @@
 :root {
   /* Backgrounds */
   --background: #FFFFFF;
-  --surface: #f8fafc;
+  --surface: #A4A1FF;
   --surface-secondary: #f1f5f9;
 
   /* Text */
   --primary-text: #0f172a;
   --text-secondary: #64748b;
+  --button-text: #FFFFFF;
 
   /* Brand */
   --primary: #4F46E5;
   --primary-hover: #1D00A5;
 
   /* UI */
-  --border: #8582FF;
+  --border: #6F778E;
   --success: #16a34a;
   --danger: #dc2626;
 }
@@ -27,6 +28,7 @@
 
   --primary-text: #f8fafc;
   --text-secondary: #94a3b8;
+  --button-text: #283044;
 
   --primary: #818cf8;
   --primary-hover: #6366f1;
@@ -40,6 +42,8 @@
   --color-background: var(--background);
   --color-surface: var(--surface);
   --color-surface-secondary: var(--surface-secondary);
+
+  --color-button-text: var(--button-text);
 
   --color-foreground: var(--foreground);
   --color-text-secondary: var(--text-secondary);
